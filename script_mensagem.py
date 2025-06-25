@@ -25,8 +25,8 @@ for contato in contatos:
         pywhatkit.sendwhatmsg_instantly(contato, mensagem_2, wait_time=10, tab_close=True)
         print(f"Mensagem 2 enviada para {contato}")
 
-        # Espera 20 segundos antes de passar para o próximo contato
-        time.sleep(20)
+        # Espera 10 segundos antes de passar para o próximo contato
+        time.sleep(10)
 
     except Exception as e:
         print(f"Erro ao enviar para {contato}: {e}")
