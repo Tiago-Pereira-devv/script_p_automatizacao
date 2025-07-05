@@ -2,6 +2,8 @@
 ## Requisitos para trabalhar com este script:
 - [Instalar a versão atual do Python](https://www.python.org/downloads/)
 
+- Ativar o Python via Prompt de comando
+
 - Instalar via Prompt de comando a biblioteca pywhatkit seguindo o passo a passo: 
 
 ```bash 
