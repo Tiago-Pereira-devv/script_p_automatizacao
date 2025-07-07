@@ -3,12 +3,12 @@ import time
 
 # Lista de contatos (formato +código país DDD número)
 contatos = [
-    "+5582993234882",
     "+558281443289"
+    
 ]
 
 # Mensagens que serão enviadas
-mensagem_1 = "Opa, tudo bem? Me chamo Tiago, sou do setor de agricultura de precisão e estou entrando em contato referente à sua máquina que veio equipada com o módulo de telemetria. Este módulo trata-se do CM100, ele transfere dados através de sinal de internet via chip telefônico. Dados estes que serão possíveis visualizar pelo nosso aplicativo FieldOps. Como por exemplo: velocidade de deslocamento, localização da máquina, histórico de movimentação da máquina, RPM do motor, etc."
+mensagem_1 = "Opa Caroline, tudo bem? Me chamo Tiago, sou do setor de agricultura de precisão e estou entrando em contato referente à sua máquina que veio equipada com o módulo de telemetria. Este módulo trata-se do CM100, ele transfere dados através de sinal de internet via chip telefônico. Dados estes que serão possíveis visualizar pelo nosso aplicativo FieldOps. Como por exemplo: velocidade de deslocamento, localização da máquina, histórico de movimentação da máquina, RPM do motor, etc."
 mensagem_2 = "Já lhe foi informado sobre nosso aplicativo do FieldOps para o monitoramento da sua máquina?"
 
 # Envia mensagens para todos os contatos

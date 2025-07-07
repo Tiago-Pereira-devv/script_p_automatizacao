@@ -2,7 +2,7 @@ import pywhatkit
 import time
 
 # Adicionar contato com Código do país mais DDD
-contato = "+5582993234882"
+contato = "+558281443289"
 
 # Anexar endereço da imagem
 imagens = [
@@ -23,9 +23,10 @@ for i in range(len(imagens)):
     fechar_aba = False if i == len(imagens) - 1 else True
     pywhatkit.sendwhats_image(
         contato,
-        imagens[i],
+        imagens[i], 
+        
         caption=legendas[i],
-        wait_time=20,
+        wait_time=10,
         tab_close=fechar_aba
     )
     print(f"Imagem {i+1} enviada")
